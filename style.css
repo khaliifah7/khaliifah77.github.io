@@ -1,0 +1,192 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  box-sizing: border-box;
+}
+/**Home page*/
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url('gun3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar{
+  width: 90%;
+  margin: auto;/**horizontally center element, x axis**/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.logo{
+  width: 140px;
+  cursor: pointer;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px 15px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white; 
+  text-transform: uppercase; 
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  
+}
+.content h1{
+  font-size: 40px;
+  margin-top: 80px;
+}
+.content p{
+  font-size: 35px;
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25;
+}
+
+/*Contact*/
+.contactus{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+input[type=text], input[type=email], input[type=number], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#submitbutton{
+  width: 100px; 
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#submitbutton:hover{
+  background-color: blue;
+}
+h1 {
+    color: red;
+    margin-left: 20px;
+}
+body {
+    background-color: grey;
+}
+h6{
+  color: white;
+}
+h2{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: white;
+}
+h5{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  background:;
+  overflow: auto;
+}
+.gallery{
+  margin: 5px;
+  border: 1px;
+  float: left;
+  width:390px;
+}
+.gallery img{
+  width:100%;
+  height: auto;
+}
+.desc{
+  padding: 15px;
+  text-align: center;
+}
+li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+a:link{
+  color: red;
+}
+a:visited{
+  color: pink;
+}
+a:hover{
+  color: skyblue;
+}
+a:active{
+  color: white;
+}
+a{
+  color:blue;
+}
+body.aboutus{
+  background-image: url('aboutus3.jpg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+body.camp{
+  background-image: url('camp2.jpg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+body.guns{
+  background-image: url('gun.jpg');
+}
+body.news{
+  background-image: url('news3.jpg');
+}
+body.tips{
+  background-image: url('bulb.jpg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+body.armor{
+  background-image: url('armorbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h4{
+  color: white;
+  background-color: white;
+}
+h3{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
